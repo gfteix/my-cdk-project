@@ -3,14 +3,15 @@
 This repository contains a simple API that allows CRUD operations on a Dynamodb table.
 
 Technologies:
-- AWS CDK as an IaC tool
+- AWS CDK as the IaC tool
 - Node/Typescript
 - AWS Lambda
 - Dynamodb
 - API Gateway
 
 CI/CD Ready:
-Every commit on any branch triggers unit tests and lint validation. Any commit to the dev or main branch triggers a deployment to AWS. Each environment has its own CDK stack.
+- Every commit on any branch triggers unit tests and lint validation.
+- Every commit to the **dev** or **main** branches triggers a deployment to AWS. Each environment (dev/prod) has its own CDK stack.
 
 
 Tasks:
